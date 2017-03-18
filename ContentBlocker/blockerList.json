@@ -1,0 +1,82 @@
+[
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com/.+"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com/default.json"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com/hot.json"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com/r/.*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "block"
+        }, 
+        "trigger": {
+            "url-filter": "https?://i.reddit.com/*"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com/r/magictcg"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com/r/baseball"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com/r/nba"
+        }
+    }, 
+    {
+        "action": {
+            "type": "ignore-previous-rules"
+        }, 
+        "trigger": {
+            "url-filter": "https?://www.reddit.com/r/sfgiants"
+        }
+    }
+]
