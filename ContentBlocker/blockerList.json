@@ -4,7 +4,7 @@
             "type": "block"
         }, 
         "trigger": {
-            "url-filter": "reddit.com"
+            "url-filter": "www.reddit.com/*"
         }
     },
     {
@@ -12,7 +12,40 @@
             "type": "block"
         },
         "trigger": {
-            "url-filter": "facebook.com"
+            "url-filter": "www.twitch.tv/*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "www.youtube.com/*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "www.theverge.com/*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "www.theringer.com/*"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "www.facebook.com/*"
         }
     }
+    
 ]
